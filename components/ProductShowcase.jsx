@@ -14,17 +14,39 @@ const products = [
   {
     name: "RoboAssist X1",
     description: "Personal assistant robot with advanced AI capabilities.",
-    image: "/assets/3d/Snowball.glb"
+    image: "/assets/3d/Snowball.glb",
+    credits: (
+      <p>
+        Snowball by <a href="https://poly.pizza/m/fczOpkNRDqR" target="_blank" rel="noopener noreferrer">Anonymous</a> 
+        <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer"> [CC-BY] </a>
+        via <a href="https://poly.pizza/m/fczOpkNRDqR" target="_blank" rel="noopener noreferrer">Poly Pizza</a>.
+      </p>
+    )
   },
   {
     name: "IndustriBot Pro",
     description: "Heavy-duty industrial robot for manufacturing and logistics.",
-    image: "/assets/3d/robot.glb"
+    image: "/assets/3d/robot.glb",
+    credits: (
+      <p>
+  Super Robot ! by <a href="https://poly.pizza/m/eV232rQZrgh" target="_blank" rel="noopener noreferrer">Romain Revert</a> 
+  <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer"> [CC-BY] </a>
+  via <a href="https://poly.pizza/m/eV232rQZrgh" target="_blank" rel="noopener noreferrer">Poly Pizza</a>.
+</p>
+    )
   },
   {
     name: "MediCare Bot",
     description: "Specialized robot for healthcare and medical assistance.",
-    image: "/assets/3d/MechQuadruped.glb"
+    image: "/assets/3d/MechQuadruped.glb",
+    credits: (
+      <p>
+  MechQuadruped by <a href="https://poly.pizza/m/5x1hRpbmdfo" target="_blank" rel="noopener noreferrer">3Donimus</a> 
+  <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer"> [CC-BY] </a>
+  via <a href="https://poly.pizza/m/5x1hRpbmdfo" target="_blank" rel="noopener noreferrer">Poly Pizza</a>.
+</p>
+
+    )
   }
 ]
 
@@ -57,7 +79,7 @@ export default function ProductShowcase() {
                 </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-semibold mb-2">{product.name}</h3>
+                <h3 className="text-xl font-semibold mb-2"> {product.credits}</h3>
                 <p className="text-gray-400">{product.description}</p>
                 <p className="text-gray-200">*Slide Over Image to zoom</p>
                 <Link href="#contact" ><button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">

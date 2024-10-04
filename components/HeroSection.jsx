@@ -56,7 +56,12 @@ export default function HeroSection() {
           className="text-white text-lg max-w-xl"
           style={{ opacity }}
         >
-          Explore the cutting edge of robotics and technology. Join us in shaping the future!
+          
+          Butter Robot by <a href="https://poly.pizza/m/9HIzs__db3k" target="_blank" rel="noopener noreferrer">Martin Calviello</a> 
+  <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer"> [CC-BY] </a>
+  via <a href="https://poly.pizza/m/9HIzs__db3k" target="_blank" rel="noopener noreferrer">Poly Pizza</a>.<br />
+  Explore the cutting edge of robotics and technology. Join us in shaping the future! 
+
         </motion.p>
         <motion.button 
           className="bg-blue-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-600"

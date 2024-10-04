@@ -49,6 +49,12 @@ export default function AboutSection() {
   Our vision is to empower industries and individuals alike by providing cutting-edge robotic solutions 
   that enhance efficiency, foster creativity, and contribute to a brighter future for all.
 </p>
+<p className="text-gray-400 mb-4 leading-relaxed mt-4 text-lg">
+Astronaut by <a href="https://poly.pizza/m/dLHpzNdygsg" target="_blank" rel="noopener noreferrer">Poly</a> by Google 
+  <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer"> [CC-BY] </a>
+  via <a href="https://poly.pizza/m/dLHpzNdygsg" target="_blank" rel="noopener noreferrer">Poly Pizza</a>.
+
+</p>
 
           </motion.div>
 
